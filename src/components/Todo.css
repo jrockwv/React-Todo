@@ -1,0 +1,90 @@
+
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+span {
+    color: Black;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  p {
+      color: white;
+  }
+  
+  .App {
+    padding: 0 30px;
+    max-width:500px;
+    margin: 0 auto;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  h1 {
+    text-align: center;
+  }
+  
+  .shopping-list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .item {
+    background-color: grey;
+    width: 45%;
+    text-align: left;
+    margin: 4px 0;
+    padding-left: 8px;
+    cursor: pointer;
+  }
+  
+  .item.complete {
+    background-color: black;
+    text-decoration: line-through;
+    
+  }
+  
+  .item.done p {
+      color: lightgray;
+  }
+  form {
+    width: 55%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  form > input {
+    background-color: white;
+    border: 0;
+    padding: 6px 0;
+    font-size: 1rem;
+    width: 240px;
+    outline: 0;
+    color: Black;
+    border-bottom: 1px solid black;
+    margin-right: 8px;
+  }
+  
+  button {
+    background-color: teal;
+    border: 1px solid black;
+    color: Yellow;
+    font-size: 18px;
+    padding: 6px 14px;
+  }
+  
+  input::placeholder {
+    color: grey;
+    opacity: 1;
+  }
+  
+  .clear-btn {
+    margin-top: 16px;
+  }
